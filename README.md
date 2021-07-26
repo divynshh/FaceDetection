@@ -8,7 +8,7 @@
 Run the following commands on your local machine, after the prerequisites for your environment have been completed:
 
 ```bash
-pip install -r requirements.txt
+pip install -r dependencies.txt
 ```
 
 ### Steps to Run
