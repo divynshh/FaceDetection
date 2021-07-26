@@ -1,0 +1,6 @@
+zureuser@myfirstvm:~/cloudfiles/code/Users/cloud_user_p_b7c307f8/src$ python api_test.py 
+[ WARN:0] global /tmp/pip-req-build-itd46xp8/opencv/modules/videoio/src/cap_v4l.cpp (890) open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+Traceback (most recent call last):
+  File "api_test.py", line 14, in <module>
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+cv2.error: OpenCV(4.5.2) /tmp/pip-req-build-itd46xp8/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
