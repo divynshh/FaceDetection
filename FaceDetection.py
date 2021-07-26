@@ -27,7 +27,6 @@ while True:
     for (x, y, w, h) in faces:
         cv2.rectangle(frame, (x-100, y-100), (x+w+100, y+h+100), (0, 255, 0), 2)
 
-        if faces!=[]
     # Display the resulting frame
     cv2.imshow('Video', frame)
 
